@@ -294,3 +294,8 @@ div#archive {
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
+
+/* 防止图片在黑夜模式看不清 */
+.post-content img{
+  background-color: #ffffff;
+}
