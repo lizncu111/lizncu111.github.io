@@ -16,10 +16,19 @@
     width:100%;
     height:200px
 }
-#recent-posts .recent-post-item .post_cover img.post_bg{
+/* #recent-posts .recent-post-item .post_cover img.post_bg{
     width:100%;
-    height:100%
+    height:100%;
+    object-position: 50% 15%;
+    object-fit: cover;
+} */
+#recent-posts .recent-post-item .post_cover img{
+    width:100%;
+    height:100%;
+    object-position: 50% 15%;
+    object-fit: cover;
 }
+
 #recent-posts .recent-post-item .recent-post-info .content{
     display:none
 }
